@@ -1786,6 +1786,10 @@
     top: 387px;
     left: 270px;
   }
+
+  .small__vacancy {
+    display: none;
+  }
 }
 @media screen and (max-width: 399px) {
   .hiring__title {
@@ -2100,7 +2104,7 @@
     display: none;
   }
 }
-@media screen and (nin-width: 400px) {
+@media screen and (min-width: 400px) {
   .order {
     display: flex;
     background: #f4f5f7;
@@ -2249,6 +2253,7 @@
     text-align: center;
     color: #ffffff;
     margin: 0 15px 10px 15px;
+    border: none;
   }
 
   .terms-of-use {
