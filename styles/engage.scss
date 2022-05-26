@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+  .engage__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #009b4d;
+    width: 145px;
+    height: 34px;
+    margin: 40px 160px 0 15px;
+  }
+  .engage__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.357143px;
+    width: 290px;
+    height: 87px;
+    margin: 17px 15px 0 15px;
+  }
+  .engage__description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    width: 290px;
+    height: 168px;
+    margin: 18px 15px 0 15px;
+  }
+  .engage__photo {
+    width: 290px;
+    height: 381px;
+    margin: 30px 15px 0 15px;
+  }
+  .engage__descript {
+    width: 290px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin: 20px 15px 40px 15px;
+  }
+  .engage__line {
+    width: 321px;
+    background: 1px solid #e3e3e3;
+  }
+}
+@media screen and (min-width: 400px) {
+  .engage {
+    display: none;
+  }
+}

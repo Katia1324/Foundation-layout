@@ -1,0 +1,241 @@
+@media screen and (min-width: 400px) {
+  .logo__image_footer {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  .footer {
+    height: 50px;
+    width: 1140px;
+    display: flex;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .footer__line {
+    border-top: 1px solid #2b292d;
+    width: 1400px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin: 0;
+  }
+  .footer-links {
+    height: 50px;
+    width: 1140px;
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+  }
+  .terms {
+    line-height: 50px;
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .terms:last-child {
+    margin-right: 61px;
+  }
+  .terms__item {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(43, 41, 45, 0.6);
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  .footer-navigation__item:last-child {
+    margin-right: 0;
+  }
+  .footer-links__item {
+    width: 21px;
+    height: 16px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    margin-right: 20px;
+  }
+  .social-links__item {
+    margin-right: 20px;
+    line-height: 50px;
+  }
+  .social-links {
+    display: flex;
+  }
+  .social-links__item:last-child {
+    margin-right: 0;
+  }
+  .footer-navigation {
+    width: 1140px;
+    margin: 0 130px;
+    height: 338px;
+    display: flex;
+  }
+  .about-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(43, 41, 45, 0.6);
+    width: 360px;
+    margin-bottom: 25px;
+  }
+  .google_pay,
+  .app_store {
+    width: 116px;
+    height: 40px;
+  }
+  .logo-ft {
+    display: flex;
+    margin-bottom: 26px;
+  }
+  .app_store {
+    margin-right: 10px;
+  }
+  .about-company {
+    margin-top: 44px;
+  }
+  .additional-navigation {
+    margin-top: 60px;
+    margin-left: auto;
+    display: flex;
+  }
+  .additional-navigation__column {
+    margin-right: 29px;
+  }
+  .nav-links {
+    width: 265px;
+  }
+  .nav-links__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0;
+  }
+  .nav-links__list-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  .nav-links__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+  }
+  .app_google {
+    margin-bottom: 59px;
+  }
+  .footer__line {
+    display: none;
+  }
+}
+@media screen and (max-width: 399px) {
+  .logo__image_footer {
+    width: 60px;
+    height: 60px;
+    margin: 40px 130px 20px 130px;
+  }
+  .logo-text {
+    width: 290px;
+    height: 51px;
+    margin: 0 15px 31px 15px;
+  }
+  .logo__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0;
+  }
+  .logo__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin: 0;
+  }
+
+  .about-description {
+    display: none;
+  }
+  .app_google {
+    display: flex;
+    margin: 31px 29px 40px 30px;
+  }
+  .app_store {
+    width: 135px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .google_pay {
+    width: 116px;
+    height: 40px;
+  }
+  .footer__line_2 {
+    width: 321px;
+    height: 1px;
+    background: #e3e3e3;
+  }
+  .nav-links__title {
+    margin: 30px 15px 0 15px;
+    width: 290px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .nav-links__list {
+    width: 290px;
+    height: 175px;
+    margin: 18px 15px 30px 15px;
+    list-style-type: none;
+    padding: 0;
+  }
+  .nav-links__list:last-child {
+    margin-bottom: 0;
+  }
+  .nav-links__list-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  .footer__line {
+    display: none;
+  }
+  .footer-links {
+    margin: 0;
+  }
+  .terms {
+    display: flex;
+    margin: 0 125px 31px 15px;
+  }
+  .terms__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin-right: 20px;
+  }
+  .terms__item:last-child {
+    margin-right: 0;
+  }
+  .social-links {
+    text-decoration: none;
+    display: flex;
+  }
+  .it_1 {
+    width: 21px;
+    height: 16px;
+    margin: 0 20px 23px 15px;
+  }
+  .it_2 {
+    width: 18px;
+    height: 17px;
+    margin: 0 20px 22px 0;
+  }
+  .it_3 {
+    width: 18px;
+    height: 17px;
+    margin: 0 208px 23px 0;
+  }
+}
