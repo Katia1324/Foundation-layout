@@ -122,13 +122,17 @@
     mix-blend-mode: normal;
     opacity: 0.15;
   }
-  .asquire,
-  .acquire__line,
-  .acquire__description {
+  .asquire {
+    display: none;
+  }
+  .acquire__line {
+    display: none;
+  }
+  p.acquire__description {
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 399px) {
   .easily__subtitle-small {
     font-weight: 700;
     font-size: 22px;
@@ -184,5 +188,4 @@
   .inspace {
     display: none;
   }
-
 }
