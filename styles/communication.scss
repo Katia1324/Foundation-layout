@@ -1,5 +1,5 @@
 @media screen and (min-width: 400px) {
-  .com-btn {
+  .com__btn {
     font-weight: 700;
     font-size: 18px;
     line-height: 13px;
@@ -17,45 +17,43 @@
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 2px;
     border: none;
+    margin-top: 39px;
+    margin-bottom: 87px;
   }
   .communacation {
     margin: 110px 130px 110px 126px;
+    &__subtitle {
+      width: 225px;
+      height: 34px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      margin-top: 13px;
+      margin-bottom: 0;
+      color: #0189d1;
+    }
+    &__title {
+      margin-top: 24px;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -0.5px;
+      width: 462px;
+      height: 112px;
+      margin-bottom: 0;
+    }
+    &__description {
+      margin-top: 30px;
+      width: 461px;
+      height: 102px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      margin-right: 193px;
+    }
   }
   .communicate {
     display: flex;
-  }
-  .communication__subtitle {
-    width: 225px;
-    height: 34px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 34px;
-    margin-top: 13px;
-    margin-bottom: 0;
-    color: #0189d1;
-  }
-  .communication__title {
-    margin-top: 24px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    width: 462px;
-    height: 112px;
-    margin-bottom: 0;
-  }
-  .communication__description {
-    margin-top: 30px;
-    width: 461px;
-    height: 102px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-    margin-right: 193px;
-  }
-  .com__btn {
-    margin-top: 39px;
-    margin-bottom: 87px;
   }
   .better__way-photo {
     width: 425px;
@@ -89,9 +87,9 @@
     margin: 0;
     width: 360px;
     margin-right: 30px;
-  }
-  .subscription:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
   .code {
     font-weight: 700;
@@ -153,7 +151,7 @@
     background-blend-mode: overlay, normal;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
+    border-radius: 10px;
     font-weight: 700;
     font-size: 18px;
     line-height: 13px;
@@ -188,9 +186,9 @@
     width: 290px;
     height: 138px;
     margin: 33px 15px 0 15px;
-  }
-  .subscription:last-child {
-    margin-bottom: 50px;
+    &:last-child {
+      margin-bottom: 50px;
+    }
   }
   .subscr {
     font-weight: 400;

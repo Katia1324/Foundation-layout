@@ -3,25 +3,25 @@
     display: flex;
     background: #fcf0e3;
     mix-blend-mode: normal;
-  }
-  .inbox__photo {
-    margin: 0;
-  }
-  .inbox-photo {
-    width: 425px;
-    height: 510px;
-    margin: 142px 164px 15px 193px;
-  }
-  .inbox-description {
-    width: 281px;
-    height: 22px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    text-align: center;
-    color: rgba(43, 41, 45, 0.6);
-    margin-left: 265px;
-    margin-bottom: 101px;
+    &__photo {
+      margin: 0;
+    }
+    &-photo {
+      width: 425px;
+      height: 510px;
+      margin: 142px 164px 15px 193px;
+    }
+    &-description {
+      width: 281px;
+      height: 22px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: rgba(43, 41, 45, 0.6);
+      margin-left: 265px;
+      margin-bottom: 101px;
+    }
   }
   .team__inbox-subtitle {
     margin: 0;
@@ -68,15 +68,15 @@
     background-blend-mode: overlay, normal;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  }
-  .great__widgets-description {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    width: 519px;
-    height: 115px;
-    padding: 30px 30px 0 30px;
-    margin: 0;
+    &-description {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      width: 519px;
+      height: 115px;
+      padding: 30px 30px 0 30px;
+      margin: 0;
+    }
   }
   .easy__implement {
     font-weight: 700;
@@ -98,6 +98,17 @@
     font-size: 16px;
     line-height: 22px;
     margin: 0;
+    &__line {
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #0185d0;
+      background-blend-mode: overlay, normal;
+      height: 4px;
+      margin: 0;
+    }
   }
   .proffession {
     font-weight: 400;
@@ -106,24 +117,8 @@
     color: rgba(43, 41, 45, 0.6);
     margin: 0;
   }
-  .name__line {
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #0185d0;
-    background-blend-mode: overlay, normal;
-    height: 4px;
-    margin: 0;
-  }
 }
 @media screen and (max-width: 399px) {
-  .inbox-photo {
-    width: 290px;
-    height: 348px;
-    margin: 50px 15px 0 15px;
-  }
   .team__inbox-subtitle {
     width: 125px;
     height: 34px;
@@ -150,14 +145,7 @@
     font-size: 24px;
     line-height: 34px;
   }
-  .great__widgets-description {
-    width: 250px;
-    height: 169px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    margin: 30px 20px 0 20px;
-  }
+
   .easy__implement {
     font-weight: 700;
     font-size: 20px;
@@ -177,6 +165,18 @@
     font-size: 16px;
     line-height: 22px;
     margin: 26px 20px 0 0;
+    &__line {
+      width: 290px;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #0185d0;
+      background-blend-mode: overlay, normal;
+      height: 4px;
+      margin: 0 15px 0 15px;
+    }
   }
   .proffession {
     width: 199px;
@@ -185,18 +185,6 @@
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
     margin: 0 20px 28px 0;
-  }
-  .name__line {
-    width: 290px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #0185d0;
-    background-blend-mode: overlay, normal;
-    height: 4px;
-    margin: 0 15px 0 15px;
   }
   .great__widgets {
     width: 290px;
@@ -212,14 +200,27 @@
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     margin: 0 15px 0 15px;
     padding-top: 30px;
+    &-description {
+      width: 250px;
+      height: 169px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      margin: 30px 20px 0 20px;
+    }
   }
   .inbox {
     width: 320px;
     height: 1215px;
     background: #fcf0e3;
     mix-blend-mode: normal;
-  }
-  .inbox-description {
-    display: none;
+    &-description {
+      display: none;
+    }
+    &-photo {
+      width: 290px;
+      height: 348px;
+      margin: 50px 15px 0 15px;
+    }
   }
 }

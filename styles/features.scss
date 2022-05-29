@@ -124,12 +124,12 @@
   }
   .asquire {
     display: none;
-  }
-  .acquire__line {
-    display: none;
-  }
-  p.acquire__description {
-    display: none;
+    &__line {
+      display: none;
+    }
+    &__description {
+      display: none;
+    }
   }
 }
 @media screen and (max-width: 399px) {

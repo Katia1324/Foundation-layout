@@ -1,25 +1,25 @@
 @media screen and (min-width: 400px) {
   .feedback {
     position: relative;
-  }
-  .feedback__title {
-    margin: 0 130px 0 130px;
-    width: 1140px;
-    height: 30px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    text-align: center;
-    color: #3142c6;
-  }
-  .feedback__description {
-    margin: 28px 325px 0 325px;
-    width: 750px;
-    height: 102px;
-    text-align: center;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
+    &__title {
+      margin: 0 130px 0 130px;
+      width: 1140px;
+      height: 30px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      color: #3142c6;
+    }
+    &__description {
+      margin: 28px 325px 0 325px;
+      width: 750px;
+      height: 102px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+    }
   }
   .feedb {
     width: 225px;
@@ -46,25 +46,25 @@
     height: 8px;
     width: 60px;
     display: flex;
-  }
-  .point:last-child {
-    margin-right: 0;
-  }
-  .point1 {
-    width: 8px;
-    height: 8px;
-    background: #3142c5;
-    border-radius: 50%;
-    margin-right: 13px;
-  }
-  .point2 {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: #2b292d;
-    mix-blend-mode: normal;
-    opacity: 0.2;
-    margin-right: 13px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &1 {
+      width: 8px;
+      height: 8px;
+      background: #3142c5;
+      border-radius: 50%;
+      margin-right: 13px;
+    }
+    &2 {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #2b292d;
+      mix-blend-mode: normal;
+      opacity: 0.2;
+      margin-right: 13px;
+    }
   }
   .ballon {
     width: 273px;
@@ -118,25 +118,25 @@
     height: 12px;
     width: 90px;
     display: flex;
-  }
-  .point:last-child {
-    margin-right: 0;
-  }
-  .point1 {
-    width: 12px;
-    height: 12px;
-    background: #3142c5;
-    border-radius: 50%;
-    margin-right: 19.5px;
-  }
-  .point2 {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #2b292d;
-    mix-blend-mode: normal;
-    opacity: 0.2;
-    margin-right: 19.5px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &1 {
+      width: 12px;
+      height: 12px;
+      background: #3142c5;
+      border-radius: 50%;
+      margin-right: 19.5px;
+    }
+    &2 {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #2b292d;
+      mix-blend-mode: normal;
+      opacity: 0.2;
+      margin-right: 19.5px;
+    }
   }
   .ballon {
     width: 290px;
@@ -155,5 +155,4 @@
     font-size: 22px;
     line-height: 28px;
   }
-  
 }

@@ -1,4 +1,7 @@
 @media screen and (min-width: 400px) {
+  .customers__item {
+    display: flex;
+  }
   .new__york {
     width: 104px;
     height: 75px;
@@ -6,12 +9,12 @@
   .forbes {
     width: 110px;
     height: 30px;
-    margin-right: 250px;
+    margin: auto 106px;
   }
   .apple {
     width: 43px;
     height: 50px;
-    margin-right: 106px;
+    margin: auto 0;
   }
   .mashable {
     width: 153px;
@@ -39,9 +42,6 @@
   }
 }
 @media screen and (max-width: 399px) {
-   .customers__object {
-  }
-
   .customers__object:last-child {
     margin-right: 0;
   }

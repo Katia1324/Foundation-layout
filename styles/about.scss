@@ -7,22 +7,22 @@
   .article {
     width: 555px;
     height: 102px;
-  }
-  .article1 {
-    margin-right: 29px;
-  }
-  .article__title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .article__description {
-    margin-top: 0;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
+    &1 {
+      margin-right: 29px;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 32px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    &__description {
+      margin-top: 0;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+    }
   }
 }
 @media screen and (max-width: 399px) {
@@ -34,15 +34,15 @@
   .article {
     width: 290px;
     height: 180px;
-  }
-  .article__title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-  }
-  .article__description {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
+    &__title {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 32px;
+    }
+    &__description {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+    }
   }
 }

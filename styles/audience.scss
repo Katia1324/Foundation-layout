@@ -2,73 +2,84 @@
   .audience {
     background: #00a1c6;
     mix-blend-mode: normal;
-  }
-  .audience__subtitle {
-    width: 167px;
-    height: 34px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 34px;
-    margin: 108px 616px 0 617px;
-  }
-  .audience__title {
-    margin: 24px 423px 0 422px;
-    width: 555px;
-    height: 112px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 56px;
-    text-align: center;
-    letter-spacing: -0.5px;
-  }
-  .audience__description {
-    margin: 30px 423px 0 422px;
-    width: 555px;
-    height: 72px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-  }
-  .audience__button {
-    margin: 24px 536px 0 536px;
-  }
-  .audience__button-get {
-    width: 160px;
-    height: 48px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    color: #ffffff;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #3040c4;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
-    border: none;
-  }
-  .audience__button-learn {
-    width: 158px;
-    height: 48px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #ffffff;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    color: #000000;
-    border: none;
+    &__subtitle {
+      width: 167px;
+      height: 34px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      margin: 108px 616px 0 617px;
+    }
+    &__title {
+      margin: 24px 423px 0 422px;
+      width: 555px;
+      height: 112px;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 56px;
+      text-align: center;
+      letter-spacing: -0.5px;
+    }
+    &__description {
+      margin: 30px 423px 0 422px;
+      width: 555px;
+      height: 72px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+    }
+    &__button {
+      margin: 24px 536px 0 536px;
+    }
+    &__button-get {
+      width: 160px;
+      height: 48px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 13px;
+      color: #ffffff;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #3040c4;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      border: none;
+    }
+    &__button-learn {
+      width: 158px;
+      height: 48px;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #ffffff;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 13px;
+      color: #000000;
+      border: none;
+    }
+    &__user-card {
+      margin: 22px 25px 33px 25px;
+      width: 212px;
+      height: 28px;
+      text-align: center;
+    }
+    &__card-developer {
+      width: 138px;
+      height: 195px;
+      margin: 22px 62px 0 62px;
+    }
   }
   .categories {
     margin: 111px 130px 110px 130px;
@@ -85,17 +96,6 @@
     margin-right: 30px;
     padding-bottom: 83px;
   }
-  .audience__card-developer {
-    width: 138px;
-    height: 195px;
-    margin: 22px 62px 0 62px;
-  }
-  .audience__user-card {
-    margin: 22px 25px 33px 25px;
-    width: 212px;
-    height: 28px;
-    text-align: center;
-  }
 }
 @media screen and (max-width: 399px) {
   .audience {
@@ -104,76 +104,90 @@
     width: 320px;
     height: 1858px;
     padding-top: 50px;
-  }
-  .audience__subtitle {
-    width: 290px;
-    height: 34px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 34px;
-    text-align: center;
-    margin: 50px 15px 0 15px;
-    margin-top: 50px;
-  }
-  .audience__title {
-    width: 290px;
-    height: 80px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    letter-spacing: -0.357143px;
-    margin: 17px 15px 0 15px;
-  }
-  .audience__description {
-    width: 290px;
-    height: 136px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-    text-align: center;
-    margin: 18px 15px 0 15px;
-  }
-  .audience__button-get {
-    width: 290px;
-    height: 48px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #3040c4;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    text-align: center;
-    color: #ffffff;
-    margin: 30px 15px 0 15px;
-    border: none;
-  }
-  .audience__button-learn {
-    width: 290px;
-    height: 48px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #ffffff;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    text-align: center;
-    color: #000000;
-    margin: 12px 15px 40px 15px;
-    border: none;
+    &__subtitle {
+      width: 290px;
+      height: 34px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      text-align: center;
+      margin: 50px 15px 0 15px;
+      margin-top: 50px;
+    }
+    &__title {
+      width: 290px;
+      height: 80px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -0.357143px;
+      margin: 17px 15px 0 15px;
+    }
+    &__description {
+      width: 290px;
+      height: 136px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      text-align: center;
+      margin: 18px 15px 0 15px;
+    }
+    &__button-get {
+      width: 290px;
+      height: 48px;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #3040c4;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+      border-radius: 2px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 13px;
+      text-align: center;
+      color: #ffffff;
+      margin: 30px 15px 0 15px;
+      border: none;
+    }
+    &__button-learn {
+      width: 290px;
+      height: 48px;
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.05) 0%,
+          rgba(255, 255, 255, 1e-5) 100%
+        ),
+        #ffffff;
+      background-blend-mode: overlay, normal;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 13px;
+      text-align: center;
+      color: #000000;
+      margin: 12px 15px 40px 15px;
+      border: none;
+    }
+    &__card-developer {
+      width: 138px;
+      height: 195px;
+      margin: 22px 76px 22px 76px;
+    }
+    &__user-card {
+      width: 250px;
+      height: 28px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+      margin: 0 20px 33px 20px;
+    }
   }
   .user-card__developer {
     width: 290px;
@@ -191,25 +205,11 @@
     margin: 0 15px 15px 15px;
   }
   .last_card {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
   .blue_card {
     background: #3141c5;
     box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
     border-radius: 8px;
-  }
-  .audience__card-developer {
-    width: 138px;
-    height: 195px;
-    margin: 22px 76px 22px 76px;
-  }
-  .audience__user-card {
-    width: 250px;
-    height: 28px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 28px;
-    text-align: center;
-    margin: 0 20px 33px 20px;
   }
 }
