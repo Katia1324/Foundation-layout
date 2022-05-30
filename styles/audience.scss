@@ -1,16 +1,35 @@
-@media screen and (min-width: 400px) {
-  .audience {
-    background: #00a1c6;
-    mix-blend-mode: normal;
-    &__subtitle {
+.audience {
+  background: #00a1c6;
+  padding-bottom: 50px;
+  mix-blend-mode: normal;
+  &__subtitle {
+    width: 290px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    margin: 50px 15px 0 15px;
+    margin-top: 50px;  
+    @include for-large-up {
       width: 167px;
       height: 34px;
       font-weight: 700;
       font-size: 22px;
       line-height: 34px;
-      margin: 108px 616px 0 617px;
+      margin: 108px 616px 0 617px; 
     }
-    &__title {
+  }
+  &__title {
+    width: 290px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+    margin: 17px 15px 0 15px;
+    @include for-large-up {
       margin: 24px 423px 0 422px;
       width: 555px;
       height: 112px;
@@ -20,7 +39,16 @@
       text-align: center;
       letter-spacing: -0.5px;
     }
-    &__description {
+  }
+  &__description {
+    width: 290px;
+    height: 136px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: 18px 15px 0 15px; 
+    @include for-large-up {
       margin: 30px 423px 0 422px;
       width: 555px;
       height: 72px;
@@ -28,170 +56,46 @@
       font-size: 24px;
       line-height: 34px;
     }
-    &__button {
-      margin: 24px 536px 0 536px;
+  }
+  &__button {
+    
+    @include for-large-up {
+      width: 328px;
+      height: 48px;
+      display: flex;
+      margin: 34px auto 111px auto;
+      justify-content: center;
     }
-    &__button-get {
+  }
+  &__button-get {
+    width: 290px;
+    height: 48px;
+    background: linear-gradient(
+      180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #3040c4;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    color: #ffffff;
+    margin: 30px 15px 0 15px;
+    border: none;
+    @include for-large-up {
       width: 160px;
       height: 48px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 13px;
-      color: #ffffff;
-      background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%
-        ),
-        #3040c4;
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-      border-radius: 2px;
-      border: none;
-    }
-    &__button-learn {
-      width: 158px;
-      height: 48px;
-      background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%
-        ),
-        #ffffff;
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-      border-radius: 2px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 13px;
-      color: #000000;
-      border: none;
-    }
-    &__user-card {
-      margin: 22px 25px 33px 25px;
-      width: 212px;
-      height: 28px;
-      text-align: center;
-    }
-    &__card-developer {
-      width: 138px;
-      height: 195px;
-      margin: 22px 62px 0 62px;
+      margin: 0;
     }
   }
-  .categories {
-    margin: 111px 130px 110px 130px;
-    width: 1139px;
-    height: 300px;
-    display: flex;
-  }
-  .user-card__developer:last-child {
-    margin-right: 0;
-  }
-  .user-card__developer {
-    width: 262px;
-    height: 300px;
-    margin-right: 30px;
-    padding-bottom: 83px;
-  }
-}
-@media screen and (max-width: 399px) {
-  .audience {
-    background: #00a1c6;
-    mix-blend-mode: normal;
-    width: 320px;
-    height: 1858px;
-    padding-top: 50px;
-    &__subtitle {
-      width: 290px;
-      height: 34px;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 34px;
-      text-align: center;
-      margin: 50px 15px 0 15px;
-      margin-top: 50px;
-    }
-    &__title {
-      width: 290px;
-      height: 80px;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 40px;
-      text-align: center;
-      letter-spacing: -0.357143px;
-      margin: 17px 15px 0 15px;
-    }
-    &__description {
-      width: 290px;
-      height: 136px;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 34px;
-      text-align: center;
-      margin: 18px 15px 0 15px;
-    }
-    &__button-get {
-      width: 290px;
-      height: 48px;
-      background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%
-        ),
-        #3040c4;
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-      border-radius: 2px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 13px;
-      text-align: center;
-      color: #ffffff;
-      margin: 30px 15px 0 15px;
-      border: none;
-    }
-    &__button-learn {
-      width: 290px;
-      height: 48px;
-      background: linear-gradient(
-          180deg,
-          rgba(255, 255, 255, 0.05) 0%,
-          rgba(255, 255, 255, 1e-5) 100%
-        ),
-        #ffffff;
-      background-blend-mode: overlay, normal;
-      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-        inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 13px;
-      text-align: center;
-      color: #000000;
-      margin: 12px 15px 40px 15px;
-      border: none;
-    }
-    &__card-developer {
-      width: 138px;
-      height: 195px;
-      margin: 22px 76px 22px 76px;
-    }
-    &__user-card {
-      width: 250px;
-      height: 28px;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 28px;
-      text-align: center;
-      margin: 0 20px 33px 20px;
-    }
-  }
-  .user-card__developer {
+  &__button-learn {
     width: 290px;
-    height: 300px;
+    height: 48px;
     background: linear-gradient(
         180deg,
         rgba(255, 255, 255, 0.05) 0%,
@@ -201,15 +105,85 @@
     background-blend-mode: overlay, normal;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
       inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    margin: 0 15px 15px 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    color: #000000;
+    margin: 12px 15px 40px 15px;
+    border: none;
+    @include for-large-up {
+      width: 158px;
+      height: 48px;
+      margin: 0;
+      margin-left: 10px;
+    }
   }
-  .last_card {
-    margin-bottom: 50px;
+  &__user-card {
+    width: 250px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 20px 33px 20px;
+    @include for-large-up {
+      margin: 22px 25px 33px 25px;
+      width: 212px;
+      height: 28px;
+      text-align: center;
+    }
   }
-  .blue_card {
-    background: #3141c5;
-    box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
-    border-radius: 8px;
+  &__card-developer {
+    width: 138px;
+    height: 195px;
+    margin: 22px 76px 0 76px;
+    @include for-large-up {
+      width: 138px;
+      height: 195px;
+      display: block;
+      margin: 22px auto;
+    }
   }
+
+  @include for-large-up {
+    background: #00a1c6;
+    mix-blend-mode: normal;
+    width: 1400px;
+    height: 983px;
+  }
+}
+.categories {
+
+  @include for-large-up {
+    display: flex;
+    justify-content: center;
+  }
+}
+.user-card__developer {
+  width: 290px;
+  height: 300px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 1e-5) 100%
+    ),
+    #ffffff;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  margin: 0 15px 15px 15px;
+  @include for-large-up {
+    width: 262px;
+    height: 300px;
+    margin-right: 30px;
+    padding-bottom: 83px;
+  }
+}
+
+.blue_card {
+  background: #3141c5;
+  box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
 }

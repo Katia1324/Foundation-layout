@@ -1,10 +1,29 @@
-@media screen and (min-width: 400px) {
-  .about {
+.about {
+  display: block;
+  background: #f4f5f7;
+  padding: 46px 15px;
+
+  @include for-large-up {
     display: flex;
     padding: 77px 130px;
     background: #f4f5f7;
   }
-  .article {
+}
+.article {
+  width: 290px;
+  height: 180px;
+  &__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  @include for-large-up {
     width: 555px;
     height: 102px;
     &1 {
@@ -19,27 +38,6 @@
     }
     &__description {
       margin-top: 0;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 32px;
-    }
-  }
-}
-@media screen and (max-width: 399px) {
-  .about {
-    display: block;
-    background: #f4f5f7;
-    padding: 46px 15px;
-  }
-  .article {
-    width: 290px;
-    height: 180px;
-    &__title {
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 32px;
-    }
-    &__description {
       font-weight: 400;
       font-size: 22px;
       line-height: 32px;

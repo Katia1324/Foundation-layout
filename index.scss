@@ -1,3 +1,4 @@
+@import './styles/breakpoints.scss';
 @import './styles/about.scss';
 @import './styles/audience.scss';
 @import './styles/common.scss';
@@ -14,4 +15,25 @@
 @import './styles/engage.scss';
 @import './styles/support.scss';
 
+.page {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  color: #2b292d;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
 
+@media screen and (min-width: 400px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
