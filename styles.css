@@ -775,23 +775,21 @@
     display: none;
   }
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .feedback {
     position: relative;
   }
 }
-@media screen and (min-width: 400px) {
-  .feedback__title {
-    margin: 39px 15px 0 15px;
-    width: 290px;
-    height: 120px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
-    color: #3142c6;
-  }
+.feedback__title {
+  margin: 39px 15px 0 15px;
+  width: 290px;
+  height: 120px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3142c6;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .feedback__title {
     margin: 0 130px 0 130px;
     width: 1140px;
@@ -803,17 +801,15 @@
     color: #3142c6;
   }
 }
-@media screen and (min-width: 400px) {
-  .feedback__description {
-    width: 290px;
-    height: 307px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 34px;
-    margin: 29px 15px 0 15px;
-  }
+.feedback__description {
+  width: 290px;
+  height: 307px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 29px 15px 0 15px;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .feedback__description {
     margin: 28px 325px 0 325px;
     width: 750px;
@@ -824,29 +820,27 @@
     line-height: 34px;
   }
 }
-@media screen and (min-width: 400px) {
-  .feedb {
-    width: 290px;
-    height: 48px;
-    margin: 32px 15px 0 15px;
-  }
+
+.feedb {
+  width: 290px;
+  height: 48px;
+  margin: 32px 15px 0 15px;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .feedb {
     width: 225px;
     height: 48px;
     margin: 34px 587px 0 588px;
   }
 }
-@media screen and (min-width: 400px) {
-  .name1 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0;
-  }
+
+.name1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .name1 {
     font-weight: 700;
     font-size: 16px;
@@ -855,16 +849,15 @@
     margin: 0;
   }
 }
-@media screen and (min-width: 400px) {
-  .proff1 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(43, 41, 45, 0.6);
-    margin: 0;
-  }
+
+.proff1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(43, 41, 45, 0.6);
+  margin: 0;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .proff1 {
     margin: 0;
     font-weight: 400;
@@ -874,15 +867,14 @@
     color: rgba(43, 41, 45, 0.6);
   }
 }
-@media screen and (min-width: 400px) {
-  .point {
-    margin: 40px 122px 40px 123px;
-    height: 12px;
-    width: 90px;
-    display: flex;
-  }
+
+.point {
+  margin: 40px 122px 40px 123px;
+  height: 12px;
+  width: 90px;
+  display: flex;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .point {
     margin: 38px 675px 67px 675px;
     height: 8px;
@@ -890,26 +882,22 @@
     display: flex;
   }
 }
-@media screen and (min-width: 400px) {
+.point:last-child {
+  margin-right: 0;
+}
+@media screen and (min-width: 1400px) {
   .point:last-child {
     margin-right: 0;
   }
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
-  .point:last-child {
-    margin-right: 0;
-  }
+.point1 {
+  width: 12px;
+  height: 12px;
+  background: #3142c5;
+  border-radius: 50%;
+  margin-right: 19.5px;
 }
-@media screen and (min-width: 400px) {
-  .point1 {
-    width: 12px;
-    height: 12px;
-    background: #3142c5;
-    border-radius: 50%;
-    margin-right: 19.5px;
-  }
-}
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .point1 {
     width: 8px;
     height: 8px;
@@ -918,18 +906,16 @@
     margin-right: 13px;
   }
 }
-@media screen and (min-width: 400px) {
-  .point2 {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #2b292d;
-    mix-blend-mode: normal;
-    opacity: 0.2;
-    margin-right: 19.5px;
-  }
+.point2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #2b292d;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  margin-right: 19.5px;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .point2 {
     width: 8px;
     height: 8px;
@@ -940,14 +926,13 @@
     margin-right: 13px;
   }
 }
-@media screen and (min-width: 400px) {
-  .ballon {
-    width: 290px;
-    height: 258px;
-    margin: 0 15px 50px 15px;
-  }
+
+.ballon {
+  width: 290px;
+  height: 258px;
+  margin: 0 15px 50px 15px;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .ballon {
     width: 273px;
     height: 243px;
@@ -957,15 +942,14 @@
     margin: 0;
   }
 }
-@media screen and (min-width: 400px) {
-  .feedback__line {
-    width: 321px;
-    height: 1px;
-    background: #e3e3e3;
-    margin: 0;
-  }
+
+.feedback__line {
+  width: 321px;
+  height: 1px;
+  background: #e3e3e3;
+  margin: 0;
 }
-@media screen and (min-width: 400px) and (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .feedback__line {
     width: 1400px;
     height: 1px;
@@ -974,6 +958,7 @@
     opacity: 0.1;
   }
 }
+
 @media screen and (max-width: 399px) {
   .small__vacancy-title {
     margin: 19px 21px 7px 20px;
@@ -1325,6 +1310,7 @@
     background-color: #f3c6bd;
     padding-top: 39px;
     padding-bottom: 86px;
+    width: 1400px;
   }
 }
 
@@ -1336,7 +1322,7 @@
   width: 100%;
   height: 64px;
   padding-left: 15px;
-  margin: auto;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   background: #ffffff;
@@ -1356,7 +1342,7 @@
   display: block;
   width: 58px;
   height: 64px;
-  margin-left: 74px;
+  margin-left: 57px;
   border: none;
   border-left: 1px solid #000000;
   opacity: 0.15;
@@ -1395,10 +1381,6 @@
     height: 60px;
     margin: 0 15px 0 0;
   }
-}
-.logo__text {
-  width: 111px;
-  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .logo__text {
@@ -1487,6 +1469,12 @@
   text-align: right;
 }
 
+@media screen and (max-width: 399px) {
+  .logo-text {
+    width: 111px;
+    margin-left: 0;
+  }
+}
 .headline {
   display: block;
   width: 100%;
