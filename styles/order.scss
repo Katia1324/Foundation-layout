@@ -1,13 +1,31 @@
-@media screen and (min-width: 400px) {
-  .order {
+.order {
+  background: #f4f5f7;
+  width: 320px;
+  height: 827px;
+  @include for-large-up {
     display: flex;
     background: #f4f5f7;
-    &-photo {
+    width: 1400px;
+  }
+  &-photo {
+    width: 200px;
+    height: 220px;
+    margin: 50px 60px 40px 60px;
+    @include for-large-up {
       width: 269px;
       height: 296px;
       margin: 73px 121px 72px 224px;
     }
-    &__start-title {
+  }
+  &__start-title {
+    width: 290px;
+    height: 80px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    margin: 0 15px 0 15px;
+    @include for-large-up {
       width: 555px;
       height: 48px;
       font-weight: 700;
@@ -15,8 +33,17 @@
       line-height: 40px;
       letter-spacing: -0.25px;
       margin: 106px 229px 0 0;
+      text-align: left;
     }
-    &__start-description {
+  }
+  &__start-description {
+    width: 290px;
+    height: 167px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 18px 15px 40px 15px;
+    @include for-large-up {
       margin: 12px 230px 0 0;
       width: 555px;
       height: 64px;
@@ -24,11 +51,20 @@
       font-size: 22px;
       line-height: 32px;
     }
-    &__buttons {
+  }
+  &__buttons {
+    @include for-large-up {
       display: flex;
-      margin-top: 26px;
     }
-    &-form {
+  }
+  &-form {
+    width: 290px;
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 2px;
+    margin: 0 15px 12px 15px;
+    @include for-large-up {
       background: #ffffff;
       border: 1px solid rgba(43, 41, 45, 0.2);
       border-radius: 2px;
@@ -37,16 +73,44 @@
       font-weight: 400;
       font-size: 18px;
       line-height: 13px;
-      margin-right: 10px;
+      margin: 0;
+      margin-top: 26px;
     }
   }
-  input {
+}
+input {
+  width: 176px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 13px;
+  text-align: center;
+  margin: 16px 72px 17px 72px;
+  border: none;
+  @include for-large-up {
     border: none;
     margin: 17px 224px 18px 15px;
     width: 146px;
     height: 13px;
   }
-  .button__get-started {
+}
+.button__get-started {
+  width: 290px;
+  height: 48px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-5) 100%),
+    #3040c4;
+  background-blend-mode: overlay, normal;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 15px 10px 15px;
+  border: none;
+  @include for-large-up {
     width: 160px;
     height: 48px;
     background: linear-gradient(
@@ -64,102 +128,38 @@
     font-size: 18px;
     line-height: 13px;
     color: #ffffff;
-  }
-  .terms-of-use {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: rgba(43, 41, 45, 0.6);
-    &__b {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      text-decoration-line: underline;
-      color: #3142c6;
-    }
+    margin: 26px 0 0 10px;
   }
 }
-@media screen and (max-width: 399px) {
-  .order {
-    background: #f4f5f7;
-    width: 320px;
-    height: 827px;
-    &-photo {
-      width: 200px;
-      height: 220px;
-      margin: 50px 60px 40px 60px;
-    }
-    &__start-title {
-      width: 290px;
-      height: 80px;
-      font-size: 40px;
-      line-height: 40px;
-      text-align: center;
-      letter-spacing: -0.25px;
-      margin: 0 15px 0 15px;
-    }
-    &__start-description {
-      width: 290px;
-      height: 167px;
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 32px;
-      margin: 18px 15px 40px 15px;
-    }
-    &-form {
-      width: 290px;
-      height: 48px;
-      background: #ffffff;
-      border: 1px solid rgba(43, 41, 45, 0.2);
-      border-radius: 2px;
-      margin: 0 15px 12px 15px;
-    }
-  }
-  input {
-    width: 176px;
-    height: 15px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 13px;
-    text-align: center;
-    margin: 16px 72px 17px 72px;
-    border: none;
-  }
-  .button__get-started {
-    width: 290px;
-    height: 48px;
-    background: linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.05) 0%,
-        rgba(255, 255, 255, 1e-5) 100%
-      ),
-      #3040c4;
-    background-blend-mode: overlay, normal;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-    border-radius: 2px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 13px;
-    text-align: center;
-    color: #ffffff;
-    margin: 0 15px 10px 15px;
-    border: none;
-  }
-  .terms-of-use {
-    width: 290px;
-    height: 44px;
+.terms-of-use {
+  width: 290px;
+  height: 44px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+  margin: 0 15px 50px 15px;
+  @include for-large-up {
+    width: 495px;
+    height: 22px;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     color: rgba(43, 41, 45, 0.6);
-    margin: 0 15px 50px 15px;
-    &__b {
+    margin: 10px 0 0 0;
+  }
+  &__b {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
     text-decoration-line: underline;
     color: #3142c6;
+    @include for-large-up {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      text-decoration-line: underline;
+      color: #3142c6;
     }
   }
 }

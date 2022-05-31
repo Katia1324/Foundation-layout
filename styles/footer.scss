@@ -1,58 +1,90 @@
-@media screen and (min-width: 400px) {
-  .logo__image_footer {
+.logo__image_footer {
+  width: 60px;
+  height: 60px;
+  margin: 40px 130px 20px 130px;
+  @include for-large-up {
     width: 60px;
     height: 60px;
-    margin-right: 15px;
+    margin: 0 15px 0 0;
   }
-  .footer {
+}
+.footer {
+  @include for-large-up {
     height: 50px;
     width: 1140px;
     display: flex;
     margin-bottom: 0;
     flex-direction: column;
-    &__line {
+  }
+  &__line {
+    display: none;
+    @include for-large-up {
+      display: block;
       border-top: 1px solid #2b292d;
       width: 1400px;
       mix-blend-mode: normal;
       opacity: 0.1;
       margin: 0;
     }
-    &-links {
+  }
+  &-links {
+    margin: 0;
+    @include for-large-up {
       height: 50px;
       width: 1140px;
       margin-left: 130px;
       margin-right: 130px;
       display: flex;
+      margin: auto;
     }
-    &-navigation__item:last-child {
+  }
+  &-navigation__item:last-child {
+    @include for-large-up {
       margin-right: 0;
     }
-    &-links__item {
+  }
+  &-links__item {
+    @include for-large-up {
       width: 21px;
       height: 16px;
       mix-blend-mode: normal;
       opacity: 0.6;
       margin-right: 20px;
     }
-    &-navigation {
+  }
+  &-navigation {
+    @include for-large-up {
       width: 1140px;
       margin: 0 130px;
       height: 338px;
       display: flex;
     }
-    &__line {
-      display: none;
-    }
   }
-  .terms {
+}
+.terms {
+  display: flex;
+  margin: 0 125px 31px 15px;
+  @include for-large-up {
     line-height: 50px;
     display: flex;
     width: 1140px;
-    margin: 0 auto;
-    &:last-child {
+    margin: auto;
+    margin-left: 130px;
+  }
+  &:last-child {
+    margin-right: 0;
+    @include for-large-up {
       margin-right: 61px;
     }
-    &__item {
+  }
+  &__item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin-right: 20px;
+    @include for-large-up {
       font-weight: 400;
       font-size: 14px;
       color: rgba(43, 41, 45, 0.6);
@@ -60,17 +92,29 @@
       margin-right: 30px;
     }
   }
-  .social-links {
+}
+.social-links {
+  text-decoration: none;
+  display: flex;
+  @include for-large-up {
     display: flex;
-    &__item:last-child {
+  }
+  &__item:last-child {
+    @include for-large-up {
       margin-right: 0;
     }
-    &__item {
+  }
+  &__item {
+    @include for-large-up {
       margin-right: 20px;
       line-height: 50px;
     }
   }
-  .about-description {
+}
+.about-description {
+  display: none;
+  @include for-large-up {
+    display: block;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -78,164 +122,159 @@
     width: 360px;
     margin-bottom: 25px;
   }
-  .google_pay,
-  .app_store {
+}
+.google_pay {
+  width: 116px;
+  height: 40px;
+  @include for-large-up {
     width: 116px;
     height: 40px;
   }
-  .logo-ft {
-    display: flex;
-    margin-bottom: 26px;
-  }
-  .app_store {
-    margin-right: 10px;
-  }
-  .about-company {
-    margin-top: 44px;
-  }
-  .additional-navigation {
-    margin-top: 60px;
-    margin-left: auto;
-    display: flex;
-    &__column {
-      margin-right: 29px;
-    }
-  }
-  .nav-links {
-    width: 265px;
-    &__title {
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 28px;
-      margin: 0;
-    }
-    &__list-item {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 30px;
-      color: rgba(43, 41, 45, 0.6);
-    }
-    &__list {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      margin-top: 18px;
-    }
-  }
-  .app_google {
-    margin-bottom: 59px;
-  }
 }
-@media screen and (max-width: 399px) {
-  .logo__image_footer {
-    width: 60px;
-    height: 60px;
-    margin: 40px 130px 20px 130px;
-  }
-  .logo-text {
-    width: 290px;
-    height: 51px;
-    margin: 0 15px 31px 15px;
-  }
-  .logo__name {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    text-align: center;
-    margin: 0;
-  }
-  .logo__description {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: rgba(43, 41, 45, 0.6);
-    margin: 0;
-  }
-
-  .about-description {
-    display: none;
-  }
-  .app_google {
-    display: flex;
-    margin: 31px 29px 40px 30px;
-  }
-  .app_store {
+.app_store {
+  width: 135px;
+  height: 40px;
+  margin-right: 10px;
+  @include for-large-up {
     width: 135px;
     height: 40px;
     margin-right: 10px;
   }
-  .google_pay {
-    width: 116px;
-    height: 40px;
+}
+.logo-ft {
+  @include for-large-up {
+    display: flex;
+    margin-bottom: 26px;
+    width: 299px;
+    height: 60px;
+    margin: 0;
   }
-  .footer__line_2 {
-    width: 321px;
-    height: 1px;
-    background: #e3e3e3;
+}
+.about-company {
+  @include for-large-up {
+    margin-top: 43px;
   }
-  .nav-links__title {
+}
+.additional-navigation {
+  @include for-large-up {
+    margin-top: 60px;
+    margin-left: 126px ;
+    display: flex;
+
+  }
+  &__column {
+    @include for-large-up {
+      margin-right: 29px;
+    }
+  }
+}
+.nav-links {
+  @include for-large-up {
+    width: 265px;
+  }
+  &__title {
     margin: 30px 15px 0 15px;
     width: 290px;
     height: 28px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+    @include for-large-up {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      margin: 0;
+    }
   }
-  .nav-links__list {
+  &__list-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+    @include for-large-up {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(43, 41, 45, 0.6);
+    }
+  }
+  &__list {
     width: 290px;
     height: 175px;
     margin: 18px 15px 30px 15px;
     list-style-type: none;
     padding: 0;
-  }
-  .nav-links__list:last-child {
-    margin-bottom: 0;
-  }
-  .nav-links__list-item {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: rgba(43, 41, 45, 0.6);
-  }
-  .footer__line {
-    display: none;
-  }
-  .footer-links {
-    margin: 0;
-  }
-  .terms {
-    display: flex;
-    margin: 0 125px 31px 15px;
-    &__item {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      text-decoration: none;
-      color: rgba(43, 41, 45, 0.6);
-      margin-right: 20px;
-      &:last-child {
-        margin-right: 0;
-      }
+    @include for-large-up {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 18px;
+    }
+    &::last-child {
+      margin-bottom: 0;
     }
   }
-  .social-links {
-    text-decoration: none;
-    display: flex;
+}
+.app_google {
+  display: flex;
+  margin: 31px 29px 40px 30px;
+  @include for-large-up {
+    margin-bottom: 59px;
+    margin-left: 0;
   }
-  .it_1 {
-    width: 21px;
-    height: 16px;
-    margin: 0 20px 23px 15px;
+}
+.logo-text {
+  width: 290px;
+  height: 51px;
+  margin: 0 15px 31px 15px;
+  @include for-large-up {
+    width: 222px;
+    height: 51px;
+    margin: 0;
   }
-  .it_2 {
-    width: 18px;
-    height: 17px;
-    margin: 0 20px 22px 0;
+}
+.logo__name_footer {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0;
+  @include for-large-up {
+    margin: 10px 0 0 0;
+    text-align: left;
   }
-  .it_3 {
-    width: 18px;
-    height: 17px;
-    margin: 0 208px 23px 0;
+}
+.logo__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+  margin: 0;
+  @include for-large-up {
+    margin: 0 0 4px 0;
   }
+}
+.footer__line_2 {
+  width: 321px;
+  height: 1px;
+  background: #e3e3e3;
+  @include for-large-up {
+    display: none;
+  }
+}
+.it_1 {
+  width: 21px;
+  height: 16px;
+  margin: 0 20px 23px 15px;
+}
+.it_2 {
+  width: 18px;
+  height: 17px;
+  margin: 0 20px 22px 0;
+}
+.it_3 {
+  width: 18px;
+  height: 17px;
+  margin: 0 208px 23px 0;
 }
