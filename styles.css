@@ -1498,10 +1498,9 @@
   }
 }
 .headline {
-  display: flex;
-  flex-direction: column;
+  display: block;
   width: 100%;
-  margin-top: 35px 15px 0 15px;
+  margin: 35px 15px 0 15px;
 }
 @media screen and (min-width: 1400px) {
   .headline {

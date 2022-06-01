@@ -1,8 +1,7 @@
 .headline {
-  display: flex;
-  flex-direction: column;
+  display: block;
   width: 100%;
-  margin-top: 35px 15px 0 15px ;
+  margin: 35px 15px 0 15px ;
   @include for-large-up {
     width: 1140px;
     display: flex;
