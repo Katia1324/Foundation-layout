@@ -65,6 +65,7 @@
 @media screen and (min-width: 1400px) {
   .audience__subtitle {
     width: 167px;
+    padding-bottom: 48px;
     height: 34px;
     margin: 58px 616px 0 617px;
   }
@@ -216,6 +217,7 @@
     height: 300px;
     margin-right: 30px;
     padding-bottom: 83px;
+    margin-left: 0;
     cursor: pointer;
   }
 }
