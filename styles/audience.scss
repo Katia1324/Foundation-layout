@@ -145,6 +145,10 @@
   @include for-large-up {
     display: flex;
     justify-content: center;
+    width: 1400px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
   }
 }
 .user-card {
