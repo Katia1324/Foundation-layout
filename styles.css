@@ -1498,9 +1498,10 @@
   }
 }
 .headline {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  margin: 35px 15px 0 15px;
+  margin-top: 35px;
 }
 @media screen and (min-width: 1400px) {
   .headline {
