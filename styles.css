@@ -1504,13 +1504,13 @@
 .headline {
   display: block;
   width: 100%;
-  margin: 35px 15px 0 15px;
+  margin: 35px 15px 0 30px;
 }
 @media screen and (min-width: 1400px) {
   .headline {
     width: 1140px;
     display: flex;
-    margin-left: 145px;
+    margin-left: 130px;
     margin-right: 25px;
     position: relative;
     margin-top: 76px;
