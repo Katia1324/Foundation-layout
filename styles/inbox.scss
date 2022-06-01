@@ -184,11 +184,11 @@
 .inbox {
   width: 320px;
   height: 1215px;
-  background: #fcf0e3;
+    background: rgba(252, 240, 227, 0.4);
   mix-blend-mode: normal;
   @include for-large-up {
     display: flex;
-    background: #fcf0e3;
+    background: rgba(252, 240, 227, 0.4);
     width: 1400px;
     mix-blend-mode: normal;
     padding-bottom: 116px;
