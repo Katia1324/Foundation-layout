@@ -1429,7 +1429,7 @@
 }
 @media screen and (min-width: 1400px) {
   .logo__name {
-    margin: 4px 0 0 0;
+    margin: 0;
   }
 }
 .logo-description {
