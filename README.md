@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link]([https://github.com/Katia1324/foundation-layout.git])
+### [Site link]([[https://app.netlify.com/sites/strong-treacle-ca239d/overview])
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
