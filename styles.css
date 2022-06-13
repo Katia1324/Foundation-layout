@@ -63,6 +63,7 @@
   mix-blend-mode: normal;
 }
 .audience__subtitle {
+  font-family: "Work Sans";
   width: 290px;
   height: 34px;
   font-weight: 700;
@@ -79,6 +80,7 @@
   }
 }
 .audience__title {
+  font-family: "Work Sans";
   width: 290px;
   height: 80px;
   font-weight: 700;
@@ -99,6 +101,7 @@
   }
 }
 .audience__description {
+  font-family: "Work Sans";
   width: 290px;
   height: 136px;
   font-weight: 400;
