@@ -237,6 +237,11 @@
     cursor: pointer;
   }
 }
+@media screen and (min-width: 1400px) {
+  .user-card::last-child {
+    margin-right: 0;
+  }
+}
 
 @media screen and (min-width: 1400px) {
   .communication {

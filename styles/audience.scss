@@ -173,4 +173,9 @@
     margin-left: 0;
     cursor: pointer;
   }
+  &::last-child{
+    @include for-large-up {
+      margin-right: 0;
+    }
+  }
 }
