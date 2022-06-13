@@ -1,6 +1,6 @@
-# Layout Sample Project
+# foundation-layout
 
-### [Site link]([[https://app.netlify.com/sites/strong-treacle-ca239d/overview])
+### [Site link]([https://strong-treacle-ca239d.netlify.app])
 
 Layout supports mobile (up-to-400) and desktop (up-to-1400) versions
 
