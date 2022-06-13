@@ -33,6 +33,7 @@
               <div class="logo__name">Foundation</div>
               <div class="logo-description">Startup landing template</div>
             </div>
+          </div>
           <nav class="navigation">
               <a href="#" class="nav-list__item nav-list__item_selected">Home</a>
               <a href="#" class="nav-list__item">Stories</a>
@@ -40,8 +41,8 @@
           </nav>
           <button class="action__button">Get Started</button>
           <button class="header__menu-button">
-            <span class="header__menu-button-icon">
-            </span>
+            <i class="header__menu-button-icon">
+            </i>
           </button>
         </header>
 
@@ -63,13 +64,13 @@
       <!--About-->
 
       <div class="about">
-        <div class="article article1">
-          <h3 class="article__title">What is it about?</h3>
-          <p class="article__description">Building a website for a startup that looks amazing is not a rocket science anymore.</p>
+        <div class="about__block about__block_1">
+          <h3 class="about__block_title">What is it about?</h3>
+          <p class="about__block_description">Building a website for a startup that looks amazing is not a rocket science anymore.</p>
         </div>
-        <div class="article">
-          <h3 class="article__title">Who is it for?</h3>
-          <p class="article__description">Startups, small companies and teams, entrepreneurs and web developers.</p>
+        <div class="about__block">
+          <h3 class="about__block_title">Who is it for?</h3>
+          <p class="about__block_description">Startups, small companies and teams, entrepreneurs and web developers.</p>
         </div>
       </div>
 
@@ -272,14 +273,14 @@
       <div class="feedback">
         <h3 class="feedback__title">Trusted by the world’s most innovative businesses – big and small</h3>
         <p class="feedback__description">“Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”</p>
-        <div class=" feedb">
-          <h5 class="name1">Viella Malkovich</h5>
-          <p class="proff1">Creative Director at Johnson</p>
+        <div class="feedback__avtor">
+          <h5 class="feedback__avtor_name">Viella Malkovich</h5>
+          <p class="feedback__avtor_proffession">Creative Director at Johnson</p>
         </div>
-        <div class="point">
-          <div class="point1"></div>
-          <div class="point2"></div>
-          <div class="point2"></div>
+        <div class="points">
+          <div class="point_selected"></div>
+          <div class="point"></div>
+          <div class="point"></div>
         </div>
         <img class="ballon" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/balloon.png" alt="Ballon photo">
       </div>
@@ -291,17 +292,17 @@
         <h1 class="hiring__title">We’re hiring</h1>
         <p class="hiring__description">We’re a team of lifelong learners. We’re equal parts left and right brained.</p>
         <button class="hiring__button">More about Company</button>
-        <div class="vacancy">
+        <div class="title-vacancy">
           <h3 class="hiring__title_vacancy">Front-End Developer</h3>
           <p class="hiring__description_vacanc">Los Angeles / Remote</p>
           <a href="#"><img class="follow" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="follow"></a>
         </div>
-        <div class="vacancy">
+        <div class="title-vacancy">
           <h3 class="hiring__title_vacancy">Community Manager</h3>
           <p class="hiring__description_vacanc">New York / Full-Time</p>
           <a href="#"><img class="follow" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="follow"></a>
         </div>
-        <div class="vacancy">
+        <div class="title-vacancy">
           <h3 class="hiring__title_vacancy">UX/UI Designer</h3>
           <p class="hiring__description_vacanc">New York / Full-Time</p>
           <a href="#"><img class="follow" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="follow"></a>
@@ -328,8 +329,8 @@
       </div>
       <div class="small__vacancy vac1">
         <div class="small__vacancy_3">
-          <h3 class="small__vacancy-title">UX/UI Designer</h3>
-          <p class="small__vacancy-description">New York / Full-Time</p>
+          <h3 class="small__vacancy-title">Front-End Developer</h3>
+          <p class="small__vacancy-description">UX/UI Designer</p>
         </div>
         <div class="small__follow">
           <a href="#"><img class="small__vacancy-follow" src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png" alt="follow"></a>
@@ -346,9 +347,7 @@
           <h1 class="order__start-title">Start your free trial.</h1>
           <p class="order__start-description">Get notified about company updates, news and blog posts. We hate spam.</p>
           <form class="order__buttons">
-            <div class="order-form">
-              <input type="text" name="email" value="Enter your email">
-            </div>
+            <input class="order-form" type="text" name="email" placeholder="Enter your email">
             <button class="button__get-started">Get Started</button>
           </form>
           <p class="terms-of-use">Free 14-day trial · Easy setup · Cancel any time. Check out <span class="terms-of-use__b"><a href="#">Terms of Use</a></span>.</p>
@@ -392,11 +391,11 @@
             <div class="additional-navigation__column nav-links">
               <h3 class="nav-links__title">Product</h3>
               <ul class="nav-links__list">
-                <li class="nav-links__list-item"><a class="nav-links__list-item">Acquire Users</a></li></li>
-                <li class="nav-links__list-item"><a class="nav-links__list-item">Content Marketing</a></li>
-                <li class="nav-links__list-item"><a class="nav-links__list-item">Website Templates</a></li>
-                <li class="nav-links__list-item"><a class="nav-links__list-item">Customer Management</a></li>
-                <li class="nav-links__list-item"><a class="nav-links__list-item">Virtual Inbox</a></li>
+                <li class="nav-links__list-item"><a class="nav-links__list-item_title">Acquire Users</a></li></li>
+                <li class="nav-links__list-item"><a class="nav-links__list-item_title">Content Marketing</a></li>
+                <li class="nav-links__list-item"><a class="nav-links__list-item_title">Website Templates</a></li>
+                <li class="nav-links__list-item"><a class="nav-links__list-item_title">Customer Management</a></li>
+                <li class="nav-links__list-item"><a class="nav-links__list-item_title">Virtual Inbox</a></li>
               </ul>
             </div>
             <div class="nav-links">

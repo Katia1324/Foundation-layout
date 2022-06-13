@@ -3,42 +3,48 @@
   background: #f4f5f7;
   padding: 46px 15px;
   @include for-large-up {
-    display: flex;
+    display: grid;
+    gap:inherit;
+    grid-template-columns: 555px 555px;
     padding: 77px 130px;
   }
-}
-.article {
-  width: 290px;
-  height: 180px;
-  &__title {
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 32px;
-  }
-  &__description {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
-  }
+  &__block {
+    width: 290px;
+    height: 180px;
+    @include for-large-up {
+      width: 555px;
+      height: 102px;
+      display: grid;
+      grid-gap: 5px;
 
-  @include for-large-up {
-    width: 555px;
-    height: 102px;
-    &1 {
-      margin-right: 29px;
     }
-    &__title {
+    &_title {
       font-weight: 700;
       font-size: 22px;
       line-height: 32px;
-      margin-top: 0;
-      margin-bottom: 0;
+      @include for-large-up {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
     }
-    &__description {
-      margin-top: 0;
+    &_description {
       font-weight: 400;
       font-size: 22px;
       line-height: 32px;
+      @include for-large-up {
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+      }
+      &_1 {
+        @include for-large-up {
+          margin-right: 29px;
+        }
+      }
     }
   }
 }

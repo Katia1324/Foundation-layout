@@ -78,7 +78,9 @@
   &__image {
     width: 48px;
     height: 48px;
-    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: 15px;
     @include for-large-up {
       width: 60px;
@@ -104,7 +106,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    margin: 20px 0 19px 13px;
+    margin: 12px 0 11px 13px;
     @include for-large-up {
       margin: 0;
     }

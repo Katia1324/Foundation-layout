@@ -38,46 +38,46 @@
       line-height: 34px;
     }
   }
-}
-.feedb {
-  width: 290px;
-  height: 48px;
-  margin: 32px 15px 0 15px;
-  @include for-large-up {
-    width: 225px;
+  &__avtor {
+    width: 290px;
     height: 48px;
-    margin: 34px 587px 0 588px;
+    margin: 32px 15px 0 15px;
+    @include for-large-up {
+      width: 225px;
+      height: 48px;
+      margin: 34px 587px 0 588px;
+    }
+    &_name {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      @include for-large-up {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin: 0;
+      }
+    }
+    &_proffession {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(43, 41, 45, 0.6);
+      margin: 0;
+      @include for-large-up {
+        margin: 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: rgba(43, 41, 45, 0.6);
+      }
+    }
   }
 }
-.name1 {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
-  @include for-large-up {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    margin: 0;
-  }
-}
-.proff1 {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: rgba(43, 41, 45, 0.6);
-  margin: 0;
-  @include for-large-up {
-    margin: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: rgba(43, 41, 45, 0.6);
-  }
-}
-.point {
+.points {
   margin: 40px 122px 40px 123px;
   height: 12px;
   width: 90px;
@@ -94,7 +94,8 @@
       margin-right: 0;
     }
   }
-  &1 {
+}
+  .point_selected {
     width: 12px;
     height: 12px;
     background: #3142c5;
@@ -108,7 +109,7 @@
       margin-right: 13px;
     }
   }
-  &2 {
+  .point {
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -126,7 +127,7 @@
       margin-right: 13px;
     }
   }
-}
+
 .ballon {
   width: 290px;
   height: 258px;
@@ -157,8 +158,15 @@
 @media screen and (max-width: 399px) {
   .small__vacancy-title {
     margin: 19px 21px 7px 20px;
+    width: 199px;
+    height: 69px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+  }
+  .small__vacancy-description {
+    width: 199px;
+    height: 26px;
+        
   }
 }

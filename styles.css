@@ -5,51 +5,60 @@
 }
 @media screen and (min-width: 1400px) {
   .about {
-    display: flex;
+    display: grid;
+    gap: inherit;
+    grid-template-columns: 555px 555px;
     padding: 77px 130px;
   }
 }
-
-.article {
+.about__block {
   width: 290px;
   height: 180px;
 }
-.article__title {
+@media screen and (min-width: 1400px) {
+  .about__block {
+    width: 555px;
+    height: 102px;
+    display: grid;
+    grid-gap: 5px;
+  }
+}
+.about__block_title {
   font-weight: 700;
   font-size: 22px;
   line-height: 32px;
 }
-.article__description {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 32px;
-}
 @media screen and (min-width: 1400px) {
-  .article {
-    width: 555px;
-    height: 102px;
-  }
-  .article1 {
-    margin-right: 29px;
-  }
-  .article__title {
+  .about__block_title {
     font-weight: 700;
     font-size: 22px;
     line-height: 32px;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .article__description {
+}
+.about__block_description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+@media screen and (min-width: 1400px) {
+  .about__block_description {
     margin-top: 0;
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
   }
 }
+@media screen and (min-width: 1400px) {
+  .about__block_description_1 {
+    margin-right: 29px;
+  }
+}
 
 .audience {
   background: rgba(0, 161, 198, 0.07);
-  padding-bottom: 50px;
+  padding-bottom: 110px;
   padding-top: 49px;
   mix-blend-mode: normal;
 }
@@ -426,91 +435,19 @@
 }
 
 .customers__object:last-child {
-  margin-right: 0;
-}
-
-.new__york {
-  width: 77px;
-  height: 55px;
-  margin: 20px 15px 19px 15px;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .new__york {
-    width: 104px;
-    height: 75px;
-    margin-left: 0px;
-    margin-top: 0;
-  }
-}
-
-.forbes {
-  width: 78px;
-  height: 21px;
-  margin: 37px 14px 36px 15px;
-}
-@media screen and (min-width: 1400px) {
-  .forbes {
-    width: 110px;
-    height: 30px;
-    margin: auto;
-  }
-}
-
-.apple {
-  width: 35px;
-  height: 40px;
-  margin: 27px 36px 27px 36px;
-}
-@media screen and (min-width: 1400px) {
-  .apple {
-    width: 43px;
-    height: 50px;
-    margin: auto 0;
-  }
-}
-
-.mashable {
-  width: 77px;
-  height: 13px;
-  margin: 41px 15px 40px 15px;
-}
-@media screen and (min-width: 1400px) {
-  .mashable {
-    width: 153px;
-    height: 26px;
-    margin: auto 0;
-  }
-}
-
-.wsj {
-  width: 49px;
-  height: 28px;
-  margin: 33px 29px 33px 29px;
-}
-@media screen and (min-width: 1400px) {
-  .wsj {
-    width: 76px;
-    height: 43px;
-    margin: auto 0;
-  }
-}
-
-.google {
-  width: 75px;
-  height: 25px;
-  margin: 35px 16px 34px 16px;
-}
-@media screen and (min-width: 1400px) {
-  .google {
-    width: 126px;
-    height: 41px;
-    margin: auto 0;
+  .customers__object:last-child {
+    margin: 0px;
   }
 }
 
 .customers {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 @media screen and (min-width: 1400px) {
   .customers {
@@ -526,6 +463,9 @@
   .customers__item {
     width: 107px;
     height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #ffffff;
     box-shadow: inset -1px -1px 0px rgba(200, 200, 200, 0.5);
   }
@@ -822,28 +762,26 @@
     line-height: 34px;
   }
 }
-
-.feedb {
+.feedback__avtor {
   width: 290px;
   height: 48px;
   margin: 32px 15px 0 15px;
 }
 @media screen and (min-width: 1400px) {
-  .feedb {
+  .feedback__avtor {
     width: 225px;
     height: 48px;
     margin: 34px 587px 0 588px;
   }
 }
-
-.name1 {
+.feedback__avtor_name {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .name1 {
+  .feedback__avtor_name {
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -851,8 +789,7 @@
     margin: 0;
   }
 }
-
-.proff1 {
+.feedback__avtor_proffession {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -860,7 +797,7 @@
   margin: 0;
 }
 @media screen and (min-width: 1400px) {
-  .proff1 {
+  .feedback__avtor_proffession {
     margin: 0;
     font-weight: 400;
     font-size: 16px;
@@ -870,29 +807,30 @@
   }
 }
 
-.point {
+.points {
   margin: 40px 122px 40px 123px;
   height: 12px;
   width: 90px;
   display: flex;
 }
 @media screen and (min-width: 1400px) {
-  .point {
+  .points {
     margin: 38px 675px 67px 675px;
     height: 8px;
     width: 60px;
     display: flex;
   }
 }
-.point:last-child {
+.points:last-child {
   margin-right: 0;
 }
 @media screen and (min-width: 1400px) {
-  .point:last-child {
+  .points:last-child {
     margin-right: 0;
   }
 }
-.point1 {
+
+.point_selected {
   width: 12px;
   height: 12px;
   background: #3142c5;
@@ -900,7 +838,7 @@
   margin-right: 19.5px;
 }
 @media screen and (min-width: 1400px) {
-  .point1 {
+  .point_selected {
     width: 8px;
     height: 8px;
     background: #3142c5;
@@ -908,7 +846,8 @@
     margin-right: 13px;
   }
 }
-.point2 {
+
+.point {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -918,7 +857,7 @@
   margin-right: 19.5px;
 }
 @media screen and (min-width: 1400px) {
-  .point2 {
+  .point {
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -964,9 +903,16 @@
 @media screen and (max-width: 399px) {
   .small__vacancy-title {
     margin: 19px 21px 7px 20px;
+    width: 199px;
+    height: 69px;
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+  }
+
+  .small__vacancy-description {
+    width: 199px;
+    height: 26px;
   }
 }
 .logo__image_footer {
@@ -1233,6 +1179,15 @@
   }
 }
 
+.logo-footer {
+  display: block;
+}
+@media screen and (min-width: 1400px) {
+  .logo-footer {
+    display: flex;
+  }
+}
+
 .logo-text {
   width: 290px;
   height: 51px;
@@ -1271,6 +1226,7 @@
 @media screen and (min-width: 1400px) {
   .logo__description {
     margin: 0 0 4px 0;
+    text-align: start;
   }
 }
 
@@ -1391,7 +1347,9 @@
 .logo__image {
   width: 48px;
   height: 48px;
-  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 15px;
 }
 @media screen and (min-width: 1400px) {
@@ -1421,7 +1379,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-  margin: 20px 0 19px 13px;
+  margin: 12px 0 11px 13px;
 }
 @media screen and (min-width: 1400px) {
   .logo__name {
@@ -1730,11 +1688,11 @@
   margin: auto;
 }
 
-.vacancy {
+.title-vacancy {
   display: none;
 }
 @media screen and (min-width: 1400px) {
-  .vacancy {
+  .title-vacancy {
     display: block;
     width: 750px;
     height: 81px;
@@ -1747,19 +1705,19 @@
     cursor: pointer;
   }
 }
-.vacancy:last-child {
+.title-vacancy:last-child {
   margin-bottom: 110px;
 }
-.vacancy:hover {
+.title-vacancy:hover {
   background-color: #3141c5;
 }
-.vacancy:hover .follow {
+.title-vacancy:hover .follow {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right-white.png");
 }
-.vacancy:hover .hiring__title_vacancy {
+.title-vacancy:hover .hiring__title_vacancy {
   color: white;
 }
-.vacancy:hover .hiring__description_vacanc {
+.title-vacancy:hover .hiring__description_vacanc {
   color: white;
 }
 
