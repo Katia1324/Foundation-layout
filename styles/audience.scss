@@ -3,6 +3,7 @@
   padding-bottom: 110px;
   padding-top: 49px;
   mix-blend-mode: normal;
+
   &__subtitle {
     font-family: 'Work Sans';
     width: 290px;
@@ -12,12 +13,14 @@
     line-height: 34px;
     text-align: center;
     margin: 0 15px 0 15px;
+
     @include for-large-up {
       width: 167px;
       height: 34px;
       margin: 58px 616px 0 617px;
     }
   }
+
   &__title {
     font-family: 'Work Sans';
     width: 290px;
@@ -28,6 +31,7 @@
     text-align: center;
     letter-spacing: -0.357143px;
     margin: 17px 15px 0 15px;
+
     @include for-large-up {
       margin: 24px 423px 0 422px;
       width: 555px;
@@ -37,6 +41,7 @@
       letter-spacing: -0.5px;
     }
   }
+
   &__description {
     font-family: 'Work Sans';
     width: 290px;
@@ -46,13 +51,16 @@
     line-height: 34px;
     text-align: center;
     margin: 18px 15px 0 15px;
+
     @include for-large-up {
       margin: 30px 423px 0 422px;
       width: 555px;
       height: 72px;
     }
   }
+
   &__button {
+
     @include for-large-up {
       width: 328px;
       height: 48px;
@@ -61,6 +69,7 @@
       justify-content: center;
     }
   }
+
   &__button-get {
     width: 290px;
     height: 48px;
@@ -81,12 +90,14 @@
     color: #ffffff;
     margin: 30px 15px 0 15px;
     border: none;
+
     @include for-large-up {
       width: 160px;
       height: 48px;
       margin: 0;
     }
   }
+
   &__button-learn {
     width: 290px;
     height: 48px;
@@ -106,6 +117,7 @@
     color: #000000;
     margin: 12px 15px 40px 15px;
     border: none;
+
     @include for-large-up {
       width: 158px;
       height: 48px;
@@ -113,6 +125,7 @@
       margin-left: 10px;
     }
   }
+
   &__user-card {
     width: 250px;
     height: 28px;
@@ -121,15 +134,18 @@
     line-height: 28px;
     text-align: center;
     margin: 0 20px 33px 20px;
+
     @include for-large-up {
       margin: 22px 25px 33px 25px;
       width: 212px;
     }
   }
+
   &__card-developer {
     width: 138px;
     height: 195px;
     margin: 22px 76px 0 76px;
+
     @include for-large-up {
       display: block;
       margin: 22px auto;
@@ -145,6 +161,7 @@
   }
 }
 .categories {
+
   @include for-large-up {
     display: flex;
     justify-content: center;
@@ -165,6 +182,7 @@
   border-radius: 8px;
   margin: 0 15px 15px 15px;
   cursor: pointer;
+
   @include for-large-up {
     width: 262px;
     height: 300px;
@@ -173,7 +191,9 @@
     margin-left: 0;
     cursor: pointer;
   }
+
   &::last-child{
+
     @include for-large-up {
       margin-right: 0;
     }

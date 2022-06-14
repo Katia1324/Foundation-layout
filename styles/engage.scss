@@ -1,7 +1,9 @@
 .engage {
+
   @include for-large-up {
     display: none;
   }
+ 
   &__subtitle {
     font-weight: 700;
     font-size: 22px;
@@ -11,6 +13,7 @@
     height: 34px;
     margin: 40px 160px 0 15px;
   }
+ 
   &__title {
     font-weight: 700;
     font-size: 40px;
@@ -20,6 +23,7 @@
     height: 87px;
     margin: 17px 15px 0 15px;
   }
+ 
   &__description {
     font-weight: 400;
     font-size: 24px;
@@ -28,11 +32,13 @@
     height: 168px;
     margin: 18px 15px 0 15px;
   }
+ 
   &__photo {
     width: 290px;
     height: 381px;
     margin: 30px 15px 0 15px;
   }
+ 
   &__descript {
     width: 290px;
     height: 22px;
@@ -43,6 +49,7 @@
     color: rgba(43, 41, 45, 0.6);
     margin: 20px 15px 40px 15px;
   }
+ 
   &__line {
     width: 321px;
     background: 1px solid #e3e3e3;

@@ -2,15 +2,18 @@
   display: block;
   background: #f4f5f7;
   padding: 46px 15px;
+  
   @include for-large-up {
     display: grid;
     gap:inherit;
     grid-template-columns: 555px 555px;
     padding: 77px 130px;
   }
+  
   &__block {
     width: 290px;
     height: 180px;
+  
     @include for-large-up {
       width: 555px;
       height: 102px;
@@ -18,10 +21,12 @@
       grid-gap: 5px;
 
     }
+  
     &_title {
       font-weight: 700;
       font-size: 22px;
       line-height: 32px;
+  
       @include for-large-up {
         font-weight: 700;
         font-size: 22px;
@@ -30,17 +35,21 @@
         margin-bottom: 0;
       }
     }
+  
     &_description {
       font-weight: 400;
       font-size: 22px;
       line-height: 32px;
+  
       @include for-large-up {
         margin-top: 0;
         font-weight: 400;
         font-size: 22px;
         line-height: 32px;
       }
+
       &_1 {
+
         @include for-large-up {
           margin-right: 29px;
         }

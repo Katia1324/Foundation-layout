@@ -1,6 +1,7 @@
 .top-section {
   background-color: #f3c6bd;
   width: 320px;
+
   @include for-large-up {
     background-color: #f3c6bd;
     padding-top: 39px;
@@ -10,6 +11,7 @@
 }
 .action__button {
   display: none;
+
   @include for-large-up {
     display: block;
     width: 160px;
@@ -40,6 +42,7 @@
   align-items: center;
   background: #ffffff;
   box-shadow: 0px 4px 16px rgba(44, 50, 65, 0.08);
+ 
   @include for-large-up {
     background-color: #f3c6bd;
     box-shadow: none;
@@ -48,6 +51,7 @@
     margin: auto;
     display: flex;
   }
+ 
   &__menu-button {
     display: block;
     width: 58px;
@@ -57,10 +61,12 @@
     border-left: 1px solid #000000;
     opacity: 0.15;
     background: transparent;
+ 
     @include for-large-up {
       display: none;
     }
   }
+ 
   &__menu-button-icon {
     width: 18px;
     margin: 0;
@@ -68,6 +74,7 @@
     background-position: center;
     display: inline-block;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
+ 
     @include for-large-up {
       display: none;
     }
@@ -75,6 +82,7 @@
 }
 .logo {
   display: flex;
+ 
   &__image {
     width: 48px;
     height: 48px;
@@ -82,17 +90,20 @@
     justify-content: center;
     align-items: center;
     margin-left: 15px;
+
     @include for-large-up {
       width: 60px;
       height: 60px;
       margin: 0 15px 0 15px;
     }
   }
+
   &__text-header {
     display: block;
     width: 111px;
     height: 25px;
     margin: 0;
+
     @include for-large-up {
       width: 222px;
       height: 51px;
@@ -101,18 +112,22 @@
       flex-direction: column;
     }
   }
+
   &__name {
     width: 111px;
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     margin: 12px 0 11px 13px;
+
     @include for-large-up {
       margin: 0;
     }
   }
+
   &-description {
     display: none;
+
     @include for-large-up {
       display: block;
       font-weight: 400;
@@ -125,6 +140,7 @@
 }
 .navigation {
   display: none;
+
   @include for-large-up {
     display: block;
     margin: auto;
@@ -132,12 +148,14 @@
     margin-right: 75px;
 
   }
+
   &__arrow {
     display: inline-block;
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
     width: 8px;
     height: 5px;
     margin-left: 11px;
+
     @include for-large-up {
       display: inline-block;
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png');
@@ -155,13 +173,16 @@
   text-decoration: none;
   color: #2b292d;
   margin-right: 50px;
+
   @include for-large-up {
     text-align: right;
     text-decoration: none;
   }
+
   &:last-child {
     margin-right: 0;
   }
+
   &_selected {
     font-weight: 700;
     font-size: 18px;

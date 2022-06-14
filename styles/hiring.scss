@@ -1,16 +1,19 @@
 .follow {
+
   @include for-large-up {
     margin: 35px 34px 24px 33px;
   }
 }
 
 .hiring {
+
   @include for-large-up {
     width: 750px;
     display: flex;
     flex-direction: column;
     margin: auto;
   }
+
   &__title {
     margin: 50px 15px 0 15px;
     width: 290px;
@@ -20,6 +23,7 @@
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.357143px;
+
     @include for-large-up {
       width: 555px;
       height: 62px;
@@ -32,6 +36,7 @@
       margin-top: 106px;
     }
   }
+
   &__description {
     margin: 18px 15px 0 15px;
     width: 290px;
@@ -40,6 +45,7 @@
     font-size: 24px;
     line-height: 34px;
     text-align: center;
+
     @include for-large-up {
       width: 555px;
       height: 72px;
@@ -51,6 +57,7 @@
       margin-bottom: 28px;
     }
   }
+
   &__button {
     width: 290px;
     height: 48px;
@@ -71,6 +78,7 @@
     color: #ffffff;
     margin: 30px 15px 39px 15px;
     border: none;
+
     @include for-large-up {
       width: 247px;
       height: 48px;
@@ -78,6 +86,7 @@
       margin-bottom: 110px;
     }
   }
+
   &__title_vacancy {
     width: 408px;
     height: 29px;
@@ -87,6 +96,7 @@
     margin-right: 20px;
     margin-left: 25px;
   }
+
   &__description_vacanc {
     font-weight: 400;
     font-size: 18px;
@@ -101,6 +111,7 @@
 }
 .title-vacancy {
   display: none;
+
   @include for-large-up {
     display: block;
     width: 750px;
@@ -113,9 +124,11 @@
     margin-bottom: 20px;
     cursor: pointer;
     }
+
     &:last-child {
       margin-bottom: 110px;
     }
+
     &:hover {
       background-color: #3141c5;
       .follow {
@@ -136,9 +149,11 @@
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 8px;
   margin: 0 15px 15px 15px;
+
   @include for-large-up {
     display: none;
   }
+
   &-description {
     margin: 0 21px 19px 20px;
     width: 199px;
@@ -149,14 +164,17 @@
     color: #2b292d;
     mix-blend-mode: normal;
     opacity: 0.6;
+
     @include for-large-up {
       display: none;
     }
   }
+
   &-follow {
     width: 7px;
     height: 12px;
     margin: 64px 22px 64px 21px;
+
     @include for-large-up {
       display: none;
     }
@@ -167,12 +185,14 @@
   height: 140px;
   background: #d5d4d5;
   border-radius: 0px 8px 8px 0px;
+
   @include for-large-up {
     display: none;
   }
 }
 .vac1 {
   margin-bottom: 50px;
+
   @include for-large-up {
     display: none;
   }

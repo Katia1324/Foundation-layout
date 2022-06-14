@@ -1,7 +1,9 @@
 .support {
+
   @include for-large-up {
     display: none;
   }
+
   &__subtitle {
     width: 88px;
     height: 34px;
@@ -11,6 +13,7 @@
     color: #009b4d;
     margin: 40px 217px 0 15px;
   }
+
   &__title {
     width: 290px;
     height: 126px;
@@ -20,6 +23,7 @@
     letter-spacing: -0.357143px;
     margin: 17px 15px 0 15px;
   }
+
   &__description {
     font-weight: 400;
     font-size: 24px;
@@ -28,11 +32,13 @@
     height: 169px;
     margin: 13px 15px 0 15px;
   }
+
   &__photo {
     width: 290px;
     height: 400px;
     margin: 29px 15px 0 15px;
   }
+
   &__descript {
     width: 290px;
     height: 22px;
